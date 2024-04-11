@@ -1,0 +1,54 @@
+
+body {
+    background-image: url(1600x922-Fondo-de-laptop.-Fondo-de-laptop-papel-tapiz-de-la-computadora-portatil-papel-tapiz-de-escritorio.jpg);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: blueviolet;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .lado-izquierdo, .lado-derecho {
+    width: 48%;
+    
+  }
+  
+  .lado-derecho {
+    text-align: center;
+  }
+  
+  table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #fffdfd8e;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: blueviolet;
+    font-weight: bold;
+  }
+  .GT{
+    text-align: center;
+    font-weight: bold;
+  }
+  #numeroTurno{
+    font-size: 80px;
+  }
